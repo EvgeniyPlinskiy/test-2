@@ -1,0 +1,21 @@
+@import './variables.scss';
+@import './reset.scss';
+@font-face {
+  font-family: "Exo2.0";
+  src: url("./fonts/exo2_0_extralight.otf");
+}
+@font-face {
+  font-family: "Trebuchet MS";
+  src: url("./fonts/trebuchetms.ttf");
+}
+@import './header.scss';
+@import './card.scss';
+
+body {
+  background: url("../assets/images/Pattern.png");
+  background-repeat: repeat;
+  font-family: "Trebuchet MS", sans-serif;
+  color: #000;
+  font-weight: 700;
+  height: 100%;
+}
